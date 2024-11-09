@@ -1,0 +1,130 @@
+\section{KHR 1}
+\subsection{Yrðingarökfræði (e. Propositional Logic)}
+Yrðingarökfræði er í stutu bara sening sem er sönn eða ósönn.\\
+Dæmi væri "er Reykjavík höfuðborg Íslands2" sem er sönn yrðing.\\
+Það getur líka verið $5 + 5 = 10$ sem er sönn yrðing en $2 + 2 = 5$ sem er ekki sönn yrðing. 
+Ef við erum með dæmi eins og $x + 2 = 9$ það er oppinn yrðing nama við vitum ekki eins og $x = 7$ þá er það sönn yrðing.\\
+\subsection{Beiting á rökfræði (e. Applications of Propositional Logic)}
+Dæmi um beiting á rökfræði með yrðingarökfræði.\\
+p: Skilaboð eru skimuð fyrir vírusum.\\
+q: Skilaboð voru send frá óþekktu kerfi.\\
+Rituð eru eftirfarandi kerfisskilyrði mep p og q.\\
+Þetta er annahvort $p \to q$ eða $q \to p$.\\
+\\
+a) Skilaboð eru skimuð fyrir vírusum í hvert skifti sem þau berast frá óþekktu kerfi.\\
+Þar sem segir að skilaboð voru send frá óþekktu kerfi og p segir að skilaboð voru skimuð þá er þetta dæmi $q \to p$\\
+\\
+b) Skilaboð voru send frá óþekktu kerfi en voru ekki skimuð fyrir vírusum.\\
+Þar sem sagt er að skilaboð voru send frá óþekktu kerfi "en" segjir okkur að það sé eins og $q \wedge \lnot p$.\\
+\\
+c) Það er nauðsilegt að skima skilaboðin fyrir vírusum í hvert sinn sem þau berast frá óþekktu kerfi.\\
+Við sjáum það er "nauðsilegt" sem segir okkur að p þarf að vera True.\\
+Þannig það segir okkur að $q \to p$.\\
+\\
+d) Þegar skilaboð eru send ekki frá óþekktu kerfi eru þau ekki skimuð fyrir vírusum.\\
+Við sjáum að dæmið segir "ekki" sem segir okkur að við erum með neitun.\\
+Þannig við erum með $(\lnot q) \to (\lnot p)$.
+\newpage
+\subsection{Jafngildar yrðingar (e. Propositional Equivalences)}
+Dæmi um sísönnu sem þýðir að eitthvað er alltaf satt.\\
+$(p \wedge q) \to p$ Skoðum þetta í sanntöflu.\\
+\begin{tabular}{ c|c|c|c }
+    p & q & $p \wedge q$ & $(p \wedge q) \to p$
+    \\ \hline
+    T & T & T & T 
+    \\ \hline
+    T & F & F & T
+    \\ \hline
+    F & T & F & T
+    \\ \hline
+    F & F & F & T
+    \\ \hline
+\end{tabular}
+\\
+Við sjáum að yrðingin er sísana þar sem $(p \wedge q) \to p$ skilar alltaf True.\\
+\\ 
+Skoðum Jafngildi.\\
+Við ætlum að byrja á að umskrifa yrðinguna.$(p \wedge q) \to p$.\\
+Við notum regluna um leiðingu sem er $a \to b \equiv \lnot a \vee b$
+\begin{align*}
+    (p \wedge q) \to p &\equiv (\lnot(p \wedge q)) \to p \quad \text{skv. leiðingar reglu í töflu 7 í bók.}\\
+    &\equiv (\lnot p \vee \lnot q) \vee p \quad \text{skv. De Morgan}\\
+    &\equiv (\lnot q \vee \lnot p) \vee p \quad \text{skv. Vixlregla}\\
+    &\equiv \lnot q \vee (\lnot p \vee p) \quad \text{skv. tengireglu}\\
+    &\equiv \lnot q \vee (p \vee \lnot p) \quad \text{skv. Vixlregla}\\
+    &\equiv \lnot q \vee T \quad \text{skv. Neitunarreglu}\\
+    &\equiv T \quad \text{skv. dominetion law}
+\end{align*}
+Svona erum við búin að sanna að yrðingin er sísana.\\
+Gott að hafa í huga að nota De Morgan law snema en ekki þannig alltaf og reina að hópa saman eins stökum eins og p p. Muna líka að taka einna reglu í einnu og að þær líta eins út og í töfluni.\\
+\newpage
+\subsection{Umsagnir og kvantarar (e. Predicates and Quantifiers)}
+Látum $P(x)$: "x er mera en 5 klukustundir í skólanum" þetta er yrðingafall þar sem formengið er x er allir nemendur í skólanum.\\
+Við ætlum að rita eftirfarandi yrðingar sem seningar.\\
+\indent a) $\exists x P(x)$: Til er nemandi sem er meyra en 5 klukustundir í skólanum.\\
+\indent b) $\forall x P(x)$: Allir nemendur eru meira en 5 klukustundir í skólanum.\\
+\indent c) $\exists x \lnot x P(x)$: Til er nemandi sem er ekki meyra en 5 klukustundir í skólanum.\\
+\indent \indent  Ef við værum með $\lnot \exists x P(x)$: þar segir okkur að það sé eingin nemandi eða \indent \indent eins og $\forall x$\\
+\indent d) $\forall x \lnot P(x)$: Allir nemendur eru ekki meyra en 5 klukustundir í skólanum.\\
+Gott er að hafa í huga að $\forall x \equiv \lnot \exists x$ og öfugt $\exists x \equiv \lnot \forall x$\\ 
+\\
+Annað dæmi.\\
+Látum $P(x)$: "x kann rúslensku" og $Q(x)$: "x kann c++".\\
+Formengið er x er mengi nemanda í skólanum.\\
+Þýðum eftirfarandi seningar yfir í kvantaratrðingar.\\
+\indent a) Til er nemandi sem kann bæði rúslensku og c++.\\
+\indent\indent Svar: $\exists x (P(x) \wedge Q(x))$. Best er að muna að eftir kvantara þá kemur svigi \indent \indent utanum það sem kvantararinn á við.\\ 
+\indent \indent Ef við værum með $\exists x P(x) \wedge Q(x)$ þá erum við að segja að $\exists x$ gildi bara fyrir \indent \indent $P(x)$ en ekki bæði.\\
+\indent b) Til er nemandi sem kann rúslensku en ekki c++.\\
+\indent \indent Svar: $\exists x (P(x) \wedge \lnot Q(x))$\\
+\indent c) Allir nemendur kunna annahvort rúslensku eða c++.\\
+\indent \indent Svar: $\forall x (P(x) \vee Q(x))$\\
+\indent d) Um gildir að eingin nemandi kann rúslensku eða c++.\\
+\indent \indent Svar: $\forall x (\lnot(P(x) \vee Q(x)))$\\
+\newpage
+
+\subsection{Margfaldir kvantarar (e. Nested Quantifiers)}
+Ritum eftirfarandi yrðingu á Íslensku.\\
+Atugum að x og y eru rauntölur.\\
+\indent a) $\forall x \exists y (x < y)$: Fyrir hvert x er til y sem er særa en x.\\
+\indent b) $\forall x \forall y (((x \geq 0) \wedge (y \geq 0)) \to (xy \geq 0))$: Margfeldi tveggja jákvæða \indent rauntalna eða 0 er jákvæð rauntala eða 0.\\
+Atugum að x, y og z eru núna rauntölur menginu.\\
+\indent c) $\forall x \forall y \exists z (xy = z)$: Margfaldi tveggja rauntalna er rauntala.\\
+\\
+Annað Dæmi um margfaldi.\\
+Látum $W(x,y)$: "x hefur skoðað y" þar sem formengið x er mengi nemanda og formengið y er vefsíða.\\
+Ritum eftirfarandi yrðingar á Íslensku.\\
+\indent a) $W(Sara,ruv.is)$: Sara hefur skoðað ruv.is\\
+\indent b) $\exists x W(x, stae.is)$: Til er nemandi sem hefur skoðað stae.is.\\
+\indent c) $\exists x W(\text{Jóhanes}, x)$: Jóhanes hefur skoðað einhverja vefsíðu.\\
+\indent d) $\exists x (W(\text{Assa, x}) \wedge W(\text{Signý, x}))$: Til er vefsíða sem bæði Assa og Signý hafa \indent skðað.\\
+\indent e) $\exists x \forall y((x \not = \text{Davíð}) \wedge (W(\text{Davíð, y}) \to W(x,y)))$: það er annar nemandi en \indent Davíð sem hefur skoðað allar vefsíður sem Davíð hefur skoðað.\\
+\indent \indent Það þarf að muna ef við erum með $\exists x \forall y$ þá er eitt x sem breytist ekki en ef \indent \indent við erum með $\forall y \exists x$ þá erum við að breyta x eða með marga nemandur.\\
+\indent f) $\exists x \exists y \forall z ((x \not = y) \wedge(W(x,z) \leftrightarrow W(y,z)))$: Það eru til tver mismundandi \indent nemandur sem hafa skoða nákvæmlega sömmu síður.\\
+\indent \indent Við sjáum að í W er x og y fyrsta stakið sem segir okkur að x og y eru \indent \indent nemendur og z er vefsíður en x og y er ekki sama meneskjan.\\
+\newpage
+\setcounter{subsection}{6}
+\subsection{Sönnunaraðferðir  (e. Introduction to Proofs)}
+Dæmi um sönnun að suma tveggja oddatalna er slétt tala.\\
+Skilgerining á sléttri tölu er $m = 2k$ og á oddatölu er það $m = 2k+1$\\
+Látum m og n vera oddatölur.\\
+Þá má rita að $m = 2k+1$ og $n = 2l+1$ þar sem $k,l \in z$\\
+Fáum: $m+n = (2k+1) + (2l+1) = 2k + 2l + 2 = 2(k+l+1)$\\
+athgum að $k+l+1$ er heil tala, þar með er $2(k+l+1)$ slétt tala og þar með er $m+n$ það líka.\\
+Við höfum sannað að summa tveggja oddatalna er slétt tala.\\
+\\
+Annað dæmi um sönnun.\\
+Sönnum að ef n er heil tala og $n^3 + 5$ er oddatala þá er n slétt tala.\\
+Við erum með $p \to q$ þar sem p er oddatala ($n^3 + 5$) og q er (n) slétt tala.\\ 
+Þar sem $p \to q \equiv \lnot q \to \lnot p$ þá viljum við byrja á að sanna $\lnot p \to \lnot q$.\\
+Notum mótskilyrðingu og sýnum fyrst að ef n er oddatala þá er $n^3 + 5$ slétt tala.\\
+Látum þá $n = 2k+1$ vera oddatölu $(k \in \mathbb{Z})$.\\
+Skoðum: 
+\begin{align} 
+    n^3 + 5 &= (2k+1)^3 + 5 \\
+    (2k+1)(4k^2 + 4k + 1) + 5 &= (8k^3 + 12k^2 + 6k + 1) + 5 \\ 
+    8k^3 + 12k^2 + 6k + 6 &= 2(4k^3 + 3k^2 + 3k + 3) 
+\end{align}
+Nú vitum við að $n^3+5 = 2(4k^3 + 3k^2 + 3k + 3)$ og er heil tala og þar með er $n^3+5 = 2(4k^3 + 3k^2 + 3k + 3)$ slétt tala.\\
+Þá höfum við sýnt að ef n er oddatala þá er $n^3+5$ slétt tala. Með mótskilyrðingu fæst þá að ef $n^3+5$ er oddatala þá er n slétt tala.
+\newpage

@@ -1,0 +1,44 @@
+\documentclass[12pt]{article}
+\usepackage[margin=0.75in]{geometry}
+\geometry{a4paper}
+\usepackage[T1]{fontenc} 
+\usepackage[utf8]{inputenc} 
+\usepackage{graphicx} 
+\usepackage{hyperref} 
+\usepackage{amsmath,amssymb}
+\usepackage{multicol}
+\usepackage{tcolorbox}
+\usepackage{xcolor}
+\usepackage{latexsym}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\usepackage{circuitikz}
+\usetikzlibrary{arrows,decorations.markings}
+
+\newcommand{\mytitlepage}{
+    \begin{center}    
+        \huge Strjála Glósur\\
+        \vspace{2cm}
+        \includegraphics[scale=0.8]{HR_logo.png}
+    \end{center}
+    \vspace{4.5cm}
+    \large Heimir Snær Vilhjálmsson
+    \newpage
+}
+
+\begin{document}
+    \mytitlepage
+    \tableofcontents
+    \newpage
+    \input{sections/glósur.tex}
+    \input{sections/síni_dæmi.tex}
+    \input{sections/khr_1.tex}
+    \input{sections/khr_2.tex}
+    \setcounter{section}{3}
+    \input{sections/khr_4.tex}
+    \input{sections/khr_5.tex}
+    \input{sections/khr_6.tex}
+    \input{sections/khr_7.tex}
+    \input{sections/khr_9.tex}
+    \input{sections/khr_10.tex}
+\end{document}

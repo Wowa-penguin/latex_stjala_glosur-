@@ -1,0 +1,72 @@
+\section{KHR}
+\subsection{Grunnatriði í talningu (e. The Basics of Counting)}
+\subsubsection{Talningafræði, nefndir}
+Í skóla eru 18 stæ.nem og 325 tölv.nem.\vspace*{0.5em}
+
+a) Á hvað marga vegur er hægt að velja tvo fulltrúa þannig að annar sé stæ.nem \hspace*{2.3em}og hinn tölv.nem.\\
+\hspace*{2.3em}Fulltrúana má velja á $18 \cdot 325$ = 5850 vegu stæ er valinn á 18 vegum og tölv \hspace*{2.3em}á 325 vegu.\vspace*{0.7em}
+
+b) Á hvesu marga vegur er hægt að velja einn fulltrúa?\\
+\hspace*{2.3em} í heildina eru $18+ 325 = 343$ nemar. Það má velja einn  fulltrúa á 343 vegu.
+
+\subsubsection{Talningafræði, bitastrengir}
+Hvessu margir bitastrengir af lengd 10 byrja og enda á 0?\\
+Horfu á þetta svona: $\underline{0}\quad\underline{0/1}\quad\underline{0/1}\quad\underline{0/1}\quad\underline{0/1}\quad\underline{0/1}\quad\underline{0/1}\quad\underline{0/1}\quad\underline{0/1}\quad\underline{0}$\vspace*{0.5em}\\ 
+Þar sem við erum með 0/1 erum við með tvo valmöguleika 1 eða 0 þannig við notum marhföldun þar sem þetta verður $2^8$.\vspace*{0.5em}\\ 
+Atugum að nú þegar er búið að velja fyrsta og síðasta bitan sem er alltaf 0.\\ 
+Svo það eru 8 bitar eftir sem má gera á $\underline{2^8 = 256}$ vegu.
+
+\subsubsection{Talningafræði, bílnúmer}
+Hvessu margir Íslenskar númeraplötur er hægt að gera.\vspace*{0.5em}\\
+Skilgrening á númeraplötu $\underline{B}\quad\underline{B}\quad\underline{T}\quad\underline{T}\quad\underline{T}$ eða $\underline{B}\quad\underline{B}\quad\underline{B}\quad\underline{T}\quad\underline{T}$\vspace*{0.5em}\\
+Atugum að það eru 26 bókstafir og 10 tölustafir sem koma til greina.\\
+Ef við höfum tvo bókstafi og þrjá tölustafi má velja fyrir og seinni bókstaf á 26 vegum, $26 \cdot 26$ í heildina og $10\cdot 10 \cdot 10$ fyrir tölustafina eða $26^2 \cdot 10^3$.\vspace*{0.5em}\\
+Á hliðstaðinn hátt má velja bókstafi á $26^3$ og tölustafi á $10^2$ ef það eru 3 bókstafir og 2 tölustafir.\vspace*{0.5em}\\ 
+Hver plata er aðeins ó öðrum hópnum þbí þriðji stafurinn er annahvort bókstafur eða tölustafur.\vspace*{0.5em}\\ 
+Í heildina eru þetta þá $\underline{26^2 \cdot 10^3 + 26^3 \cdot 10^3 = 2.433.600}$ númeraplötur.
+\newpage
+
+\subsubsection{Talningafræði, samhverfir setrengir}
+Hvessu margar samhverfur af lengd n er hægt að búa til?\vspace*{0.5em}\\
+Við þurfum að verja $\lceil n/2 \rceil$ stafi. Aðrir stafir fylgja þeim fyrstu. Sejum að við erum með n = 8 þá fáum við $\lceil 8/2 \rceil = 4$ þar sem stafur 1 og 8 eru eins.\vspace*{0.5em}\\
+Hvern staf má velja á 26 vegu. Fjöldisamhverja af lengd n er því $26^{\lceil n/2 \rceil}$
+
+\subsection{Skúffureglan (e. The Pigeonhole Principle)}
+\subsubsection{Talningafræði, umraðanir}
+Það eru 12 brúnir og 12 svartir sokkar í skúffu.\vspace*{0.5em}
+
+a) Hversu marga sokka þarf að draga til þess að vera viss um að hafa fengið \hspace*{2.6em}sokka af sama lit?\\
+\hspace*{2.6em}Það þarf að draga þrjá sokka til að vera viss.\\
+\hspace*{2.6em}Ef fyrsti sokkurinn er svartur og annar brúnn þ.á þarf þriðja sokkinn tik að \hspace*{2.6em}búa til par.\vspace*{0.5em}
+
+b) Hvað þarf að draga marga sokka til þess að vera viss um að hafa dreigið svart \hspace*{2.6em}par.\\
+\hspace*{2.6em}Til að vera viss um að vera með svart par af sokkum getur komið fyrir að \hspace*{2.6em}við drögum alla brúnu sokkana fyrst og síðast eitt svart par.\\
+\hspace*{2.6em}Það þarf að draga 14 sokka þá fyrstu 12 geta verið brúnir og svo síðustu tver \hspace*{2.6em}svartir eða í hvaða röð sem er.\vspace*{0.5em}\\
+Við erum í raun að skoða hvessu óhepinn við getum verið eða verstu niðurstöður.\vspace*{-0.5em}
+
+\subsubsection{Talningafræði, samtektir}
+Hvað þarf marga nemendur í háskóla til að vera viss um að amk 100 þeirra koma úr sama fylki? (50 fylki)\vspace*{0.5em}\\
+Skilgrening á skúffuregluni: Ef við erum með einhver n og k breytur þá eru þær $\left\lceil \frac{n}{k} \right\rceil$ í einhverju boxi.\vspace*{0.5em}\\
+Notum Skúffureglu. Finnum minsta fjölda nemanda N þannig að 100 mans séu í einhverju fylki (k = 50).\vspace*{0.5em}\\
+Fáum: $\left\lceil \frac{N}{50} \right\rceil = 100$. Atugum að $N/50 = 99$ eða $N=99\cdot 50 = 4950$\\
+Það er ekki nógu stórt N. Bætum við einum og fáum N = 4951.\vspace*{0.5em}\\
+$\frac{4591}{50} = 99,02 = \lceil 99,02 \rceil = 100$.\vspace*{0.3em}\\
+Við sjáum að það er nógu stórt þannig það er minsti mögulegi fjöldinn\vspace*{0.3em}\\
+Það þarf því amk 4951 nemanda til að amk 100 komi úr sama fylki.
+\newpage
+\subsection{Umraðanir og samantektir (e. Permutations and Combinations)}
+Það er mikið annnað í kafla 6.3 en þetta er það sem ég er búin að sjá á sýni prófum.
+\subsubsection{Talning, bitastrengir}
+Hvessu margir bitastrengir innihalda 8 núll og tíu ása þannig að eftir núll kemur alltaf ás?\vspace*{0.5em}\\
+Hugsum um núllin sem 01 tvenndir til að tryggja að það komi ás á eftir núlli.\\
+Horfu þá (8x 01) tvenndir og (2x ás) eftir.\vspace*{0.5em}\\
+Veljum þá átta sæti af 01 fyrir tvenndirnar og setjim ása í afganginn og fáum:\vspace*{0.5em}\\
+$((10,8) = \frac{10!}{2!\cdot 8!} = \frac{10 \cdot 9}{2 \cdot 1} = 45$ Það eru því 45 bitastrengir sem uppfylla skilgrening.
+
+\subsubsection{Talning, bílnúmer}
+Eftir að gera
+
+
+
+
+\newpage

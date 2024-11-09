@@ -1,0 +1,76 @@
+\contentsline {section}{\numberline {1}KHR 1}{7}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Yrðingarökfræði (e. Propositional Logic)}{7}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Beiting á rökfræði (e. Applications of Propositional Logic)}{7}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Jafngildar yrðingar (e. Propositional Equivalences)}{8}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Umsagnir og kvantarar (e. Predicates and Quantifiers)}{9}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Margfaldir kvantarar (e. Nested Quantifiers)}{10}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.7}Sönnunaraðferðir (e. Introduction to Proofs)}{11}{subsection.1.7}%
+\contentsline {section}{\numberline {2}KHR}{12}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Mengi (e. Sets)}{12}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Mengjaaðgerðir (e. Set Operations)}{13}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Sanna De morgan law}{14}{subsubsection.2.2.1}%
+\contentsline {subsection}{\numberline {8.5}Talning staka í mengjum (e. Inclusion– Exclusion)}{15}{subsection.8.5}%
+\contentsline {subsubsection}{\numberline {8.5.1}Annað dæmi}{16}{subsubsection.8.5.1}%
+\contentsline {subsection}{\numberline {2.3}Föll (e. Functions)}{17}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Loft föll og gólf föll}{17}{subsubsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.4}Runur og summur (e. Sequences and Summations)}{19}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Runur með Reiknisformúlur}{19}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Summur}{19}{subsubsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.6}Fylki (e.Matrices)}{20}{subsection.2.6}%
+\contentsline {subsubsection}{\numberline {2.6.1}Margföldun Fylkja}{20}{subsubsection.2.6.1}%
+\contentsline {subsubsection}{\numberline {2.6.2}Fylkja graf og stærð}{21}{subsubsection.2.6.2}%
+\contentsline {subsubsection}{\numberline {2.6.3}Hornlínufylki}{21}{subsubsection.2.6.3}%
+\contentsline {subsubsection}{\numberline {2.6.4}Fylkja formúlur}{22}{subsubsection.2.6.4}%
+\contentsline {subsubsection}{\numberline {2.6.5}Anndhverfa filkis.}{22}{subsubsection.2.6.5}%
+\contentsline {subsubsection}{\numberline {2.6.6}Rökvirkja fylki}{23}{subsubsection.2.6.6}%
+\contentsline {section}{\numberline {4}KHR}{24}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Heiltöludeiling og mátreikningur (e. Divisibility and Modular Arithmetic)}{24}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Heiltöludeiling}{24}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Reiknirit Evklíðs og mod}{24}{subsubsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.3}Prímtölur og stærsti samdeilirinn (e. Primes and Greatest Common Divisor)}{25}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Frumþáttun}{25}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Ósamþátta}{25}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}Stærsti samdeilir, gcd}{26}{subsubsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.4}Evklíðs}{26}{subsubsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.5}Notkun leifajafna (e. Applications of Congruences)}{27}{subsection.4.5}%
+\contentsline {subsubsection}{\numberline {4.5.1}Gervislempirunnuna}{27}{subsubsection.4.5.1}%
+\contentsline {section}{\numberline {5}KHR}{28}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Stærðfræðileg þrepun (e. Mathematical Induction)}{28}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Önnur þrepunarsönnun}{29}{subsubsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.2}Sterk þrepun (e. Strong induction up) upp að (e. up to) "Using Strong Induction in Computational Geometry"}{30}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Þrepunarskilgreiningar (e. Recursive Definitions) upp að (e. up to) "Example 4"}{31}{subsection.5.3}%
+\contentsline {section}{\numberline {6}KHR}{32}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Grunnatriði í talningu (e. The Basics of Counting)}{32}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}Talningafræði, nefndir}{32}{subsubsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.2}Talningafræði, bitastrengir}{32}{subsubsection.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.3}Talningafræði, bílnúmer}{32}{subsubsection.6.1.3}%
+\contentsline {subsubsection}{\numberline {6.1.4}Talningafræði, samhverfir setrengir}{33}{subsubsection.6.1.4}%
+\contentsline {subsection}{\numberline {6.2}Skúffureglan (e. The Pigeonhole Principle)}{33}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Talningafræði, umraðanir}{33}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}Talningafræði, samtektir}{33}{subsubsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.3}Umraðanir og samantektir (e. Permutations and Combinations)}{34}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {6.3.1}Talning, bitastrengir}{34}{subsubsection.6.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.2}Talning, bílnúmer}{34}{subsubsection.6.3.2}%
+\contentsline {section}{\numberline {7}KHR}{35}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Umraðanir og samantektir (e. Permutations and Combinations)}{35}{subsection.7.1}%
+\contentsline {subsection}{\numberline {8.1}Beiting rakningarformúla (e. Applications of Recurrence Relations) upp að (e. up to)}{35}{subsection.8.1}%
+\contentsline {section}{\numberline {9}KHR}{36}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Vensl og eiginleikar þeirra (e. Relations and Their Properties)}{36}{subsection.9.1}%
+\contentsline {subsubsection}{\numberline {9.1.1}Annað dæmi}{36}{subsubsection.9.1.1}%
+\contentsline {subsubsection}{\numberline {9.1.2}Annað dæmi vensla}{37}{subsubsection.9.1.2}%
+\contentsline {subsubsection}{\numberline {9.1.3}Annað dæmi vensla}{37}{subsubsection.9.1.3}%
+\contentsline {subsection}{\numberline {9.3}Framsetning vensla (e. Representing Relations)}{38}{subsection.9.3}%
+\contentsline {subsubsection}{\numberline {9.3.1}Vensl framsetning með filki}{38}{subsubsection.9.3.1}%
+\contentsline {subsubsection}{\numberline {9.3.2}Vensl taling staka í filki}{38}{subsubsection.9.3.2}%
+\contentsline {subsubsection}{\numberline {9.3.3}Vensl filki samsett vensk veldi}{38}{subsubsection.9.3.3}%
+\contentsline {subsubsection}{\numberline {9.3.4}Vensl framsetning með neti }{39}{subsubsection.9.3.4}%
+\contentsline {subsection}{\numberline {9.5}Jafngildisvensl (e. Equivalence Relations)}{39}{subsection.9.5}%
+\contentsline {subsubsection}{\numberline {9.5.1}Jafngildisvensl}{39}{subsubsection.9.5.1}%
+\contentsline {section}{\numberline {10}KHR}{40}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Net og netlíkön(e. Graphs and Graph Models)}{40}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Neta hugtök og sérstakar tegundir neta (e. Graph Terminology and Special Types of Graphs)}{40}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Framsetning og einsmótun neta (e. Representing Graphs and Graph Isomorphism)}{40}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Tengsl neta(e. Connectivity)}{40}{subsection.10.4}%
+\contentsline {subsection}{\numberline {10.5}Euler og Hamilton leiðir (e. Euler and Hamilton Paths)}{40}{subsection.10.5}%
+\contentsline {subsection}{\numberline {10.6}Styrsta leið (e. Shortest-Path Problems)}{40}{subsection.10.6}%
+\contentsline {subsection}{\numberline {10.8}Litun neta (e. Graph Coloring)}{40}{subsection.10.8}%

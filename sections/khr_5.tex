@@ -1,0 +1,85 @@
+\section{KHR}
+\subsection{Stærðfræðileg þrepun (e. Mathematical Induction)}
+Það sem þarf til að gera þrepunar sönnun. Grunnskref(þrep) og sanna það, þrepunarförsemdu, þrepunarskref, sanna það með þrepunarförsemdu og niðurlag.\vspace*{1em} \\
+Látum P(n) vera opna yrðinguna: $1^2 + 2^2 + 3^2 + \ldots + n^2 = \frac{n(n+1)(2_n+1)}{6}$\\
+Sönnum p(n) fyrir öll með $n \in \mathbb{Z_+}$ með þrepun.\\
+a) Finnum P(1) sem Grunnskref. Setjum n=1 og fáum:\\
+$P(n): 1^2 = \frac{1\cdot(1+1)\cdot(2\cdot1+1)}{6}$\\
+b) Sínum að P(1) er sönn yrðing. Athugum að $1^2 = 1$ og $\frac{1\cdot(1+1)\cdot(2\cdot1+1)}{6} = \frac{2\cdot3}{6} = 1$\\
+Svo VH = 1 = HH þannig að P(1) er sönn.\\
+c) Finnum þrepunarförsemdu fyrir þrepunarsönnunina.\\
+þrepunarförsendan er sú að P(k) sé sönn fyrir eitthvað $k \in \mathbb{Z_+}$\\
+Það er P(k) = $1^2 + 2^2 + 3^2 + \ldots + k^2 = \frac{k(k+1)(2_k+1)}{6}$ Þetta er ÞF (þrepunarförsendan).\\
+Við gerum ráð fyrir að $P(k) \rightarrow P(k+1)$ þannig við þrufum að sanna $P(k+1)$.\\
+d) Hvað þrufum við þá að sýna í þrepunarskrefinu til að ljúka því? Við þrufum að sýna að ef P(k) (ÞF) er sönn þá er P(k+1) líka sönn. Viljum því sýna að:\\ 
+$P(k+1): 1^2 + 2^2 + 3^2 + \ldots + k^2 = \frac{(k+1)((k+1)+1)(2(k+1)+1)}{6} = \frac{(k+1)(k+2)(2k+3)}{6}$\\
+e) Ljúkum við þrepunarskrefið með því að sanna P(k+1).\\
+Byrjum með VH og leiðum út HH. Fáum:\\
+$1^2 + 2^2 + 3^2 + \ldots + k^2 + (k+1)^2$ VH í ÞF.
+\begin{align*}
+    &= \frac{k(k+1)(2k+1)}{6} + (k+1)^2 \text{ skv. ÞF.}\\
+    &= \frac{k(k+1)(2k+1)+6(k+1)^2}{6} \\
+    &= \frac{(k+1)(k(2k+1)+6(k+1))}{6} \\
+    &= \frac{(k+1)(2k^2+k+6k+6)}{6} \\
+    &= \frac{(k+1)(2k^2+7k+6)}{6}\\
+    &*(k+2)(2k+3) = 2k^2 + 4k+3 = 2k^2 + 7k + 6\\
+    \text{skv. * }&= \frac{(k+1)(k+2)(2k+3)}{6}
+\end{align*}
+Sem er HH sem við vildum fá svo við höfum sýnt að $P(k) \rightarrow P(k+1)$\\
+f) Ljúkum sönnunni út frá grunnþrepi fæst með þreppun að P(n) gildir fyrir öll $n \in \mathbb{Z_+}$
+
+\newpage
+\subsubsection{Önnur þrepunarsönnun}
+Skoðum summu n fyrir slétta talnanna. $2+4+6+\ldots + 2n = ?$\\
+a) Fáum formúluna fyrir summuna:
+$2+4+6+\ldots+2n = \displaystyle \sum_{i=1}^{n} 2i = 2 \cdot \sum_{i=1}^{n} i$\\
+$= 2 \cdot \frac{n(n+1)}{2} = n(n+1)$\\
+Formúlan er þá $2+4+6+\ldots+2n = n(n+1)$\\
+b) Sönnum formúluna með þrepun. Látum P(n) vera opin yrðinguna:\\ 
+$2+4+6+\ldots+2n = n(n+1)$\\ \\
+Grunnþrep:\\
+Grunnþrepið er p(1) þar sem að $2 = 1\cdot 1(1+1) = 2$\\ \\
+Þrepunarförsenda:\\
+Þrepunarförsendan er sú að P(k) gildi. Það er að $2+4+6+\ldots+2k = k(k+1)$\\ \\
+Þrepunarskref:\\
+Við viljum þá sýna að P(k+1) gildi þar sem að:\\ 
+$2+4+6+\ldots+2k +2(k+1) = (k+1)(k+2)$\\
+Fáum: 
+\begin{align*}
+    2+4+6+\ldots+&2k +2(k+1) \\
+    &=k(k+1)+2(k+1) \\
+    &= (k+1)(k+2)
+\end{align*}
+Sem sýnir okkur að P(k+1) gildir eins og við vildum.\\ \\
+Niðurlag: \\
+Skv. Grunnþrepi og þrepunarskrefi fæst með þrepun að P(n) gildir fyrir allar $n \in \mathbb{Z_+}$. Þar að summa n fyrstu sléttu talnana er n(n+1).
+
+\newpage
+\subsection{Sterk þrepun (e. Strong induction up) upp að (e. up to) "Using Strong Induction in Computational Geometry"}
+Það má hugsa um sterka þrepun eins og við búm til hús sem er með fyrstu og aðra hæð og við ætlum að bæta við þryðju hæð.\vspace*{0.6em} \\
+Gerum ráð fyrir að við eigum óendanlega mörg 3kr og 5kr frímerki.\\
+Sönnum að við getum borgað nákvæmlega n krónur með frímerkjunum ef $n \geq 8$ og $n \in \mathbb{Z}$. \\
+Látum P(n) vera yrðingafallið "Það er hægt að borga nákvæmlega n krónur með 3kr og 5kr frímerkjunum eingöngu.\\
+
+Grunnskref: er að P(8), P(9) og P(10) séu sannar.\\
+\indent Athugum að $3kr + 5kr = 8kr$ og $3 \cdot 3kr = 9kr$ og $2 \cdot 5kr = 10kr$\\
+\indent Þannig að P(8), P(9) og P(10) eru sannar yrðingar.\\
+\\
+\indent Þrepunarförsendan: $(P(j), 8\leq j \leq k) \rightarrow P(k+1)$ \\
+\indent Þrepunarförsendan er þá sú að fyrir eitthvað $k \geq 8$ gildir að öll P(j) eru sönn \\ 
+\indent þar sem $(8\leq j \leq k)$. \\
+\indent Sem sagt það er hægt að greiða hvaða upphæð milli 8 og k með 3kr og 5kr.\\
+\\
+\indent þrepunarskrefið: Viljum þá sýna að P(k+1) gildi.\\
+\indent Athugum að skv ÞF er hægt að greiða k-2 krónur.\\
+\indent Tökum saman slík frímerki og bætum við 3kr frímerki\\
+\indent Þá höfum við $(k-2) + 3 = k + 1$ kr af frímerkjunum.\\
+\indent Þá er hægt að segja að greiða k+1 þar af með frímerkjunum svo P(k+1) er satt.\\
+\\
+\indent Niðurlag: Af Grunnskref og þrepunarskref má fá með þrepun að p(n) er satt\\ 
+\indent fyrir öll $n \geq 8$.\\
+\indent Þar sem að þau má greiða hvaða krónufjölda sem er með 3kr og 5kr frímerkjunum.
+
+\newpage
+\subsection{Þrepunarskilgreiningar  (e. Recursive Definitions) upp að (e. up to) "Example 4"}
+\newpage
