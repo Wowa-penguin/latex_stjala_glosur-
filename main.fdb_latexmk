@@ -1,10 +1,10 @@
 # Fdb version 4
-["pdflatex"] 1731416814.40025 "/Users/heimirsvilhjalmsson/Desktop/Strála glósur/main.tex" "/Users/heimirsvilhjalmsson/Desktop/Strála glósur/main.pdf" "main" 1731416815.3916 0
+["pdflatex"] 1731421171.61226 "/Users/heimirsvilhjalmsson/Desktop/Strála glósur/main.tex" "/Users/heimirsvilhjalmsson/Desktop/Strála glósur/main.pdf" "main" 1731421172.55303 0
   "/Users/heimirsvilhjalmsson/Desktop/Strála glósur/HR_logo.png" 1730372909.36379 37467 5510778da1affc43f8d2bbfcda50c857 ""
-  "/Users/heimirsvilhjalmsson/Desktop/Strála glósur/main.aux" 1731416815.30142 11427 9cc2d4b4db11761df8dbdf14aaba3c21 "pdflatex"
-  "/Users/heimirsvilhjalmsson/Desktop/Strála glósur/main.out" 1731416815.30252 18239 c1765f9ef4ccd2c415c3c4b45762e517 "pdflatex"
+  "/Users/heimirsvilhjalmsson/Desktop/Strála glósur/main.aux" 1731421172.4602 11720 23ea8a33ec7d657c97166381dceb8ddb "pdflatex"
+  "/Users/heimirsvilhjalmsson/Desktop/Strála glósur/main.out" 1731421172.46145 18657 238ccac78a44149ff36586a90ce09b68 "pdflatex"
   "/Users/heimirsvilhjalmsson/Desktop/Strála glósur/main.tex" 1730714128.65571 1087 95c946e1c331b6d2d57a65945f76f3b1 ""
-  "/Users/heimirsvilhjalmsson/Desktop/Strála glósur/main.toc" 1731416815.30272 8066 4469057bc6b55d4e9ee4391eae4d3b66 "pdflatex"
+  "/Users/heimirsvilhjalmsson/Desktop/Strála glósur/main.toc" 1731421172.46165 8277 eec0d8c6673667271e3c0911b015a269 "pdflatex"
   "/Users/heimirsvilhjalmsson/Desktop/Strála glósur/sections/glósur.tex" 1730730360.59288 1321 df4c3e1ae8737efa6687409bf71a29ef ""
   "/Users/heimirsvilhjalmsson/Desktop/Strála glósur/sections/khr_1.tex" 1730556564.99979 8490 d1cca27896db3ec369b042744888679c ""
   "/Users/heimirsvilhjalmsson/Desktop/Strála glósur/sections/khr_10.tex" 1730714144.72417 517 804a8e68e100f3564bb76e2d009980ee ""
@@ -12,7 +12,7 @@
   "/Users/heimirsvilhjalmsson/Desktop/Strála glósur/sections/khr_4.tex" 1730820508.82841 5546 843fb326f61cbd232c0149e0f9fc55e7 ""
   "/Users/heimirsvilhjalmsson/Desktop/Strála glósur/sections/khr_5.tex" 1730997942.22836 4954 d426643c4afb37b5a131ad00e564decf ""
   "/Users/heimirsvilhjalmsson/Desktop/Strála glósur/sections/khr_6.tex" 1731416814.20749 8344 5ca34f009dc7176edc1d66e6541b7cfb ""
-  "/Users/heimirsvilhjalmsson/Desktop/Strála glósur/sections/khr_7.tex" 1730713903.61713 252 c288a2ec2c8cd2da9a0a9478e98fdf94 ""
+  "/Users/heimirsvilhjalmsson/Desktop/Strála glósur/sections/khr_7.tex" 1731421171.40522 3085 59398a55669840ab185ca8bd99c46cdd ""
   "/Users/heimirsvilhjalmsson/Desktop/Strála glósur/sections/khr_9.tex" 1731071036.79013 7180 3b698e994979f7c02e8f2aa93a5b99b8 ""
   "/Users/heimirsvilhjalmsson/Desktop/Strála glósur/sections/síni_dæmi.tex" 1730715053.66648 2416 7ed8f1ba89eef97fce9c3fb18005e4fa ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""

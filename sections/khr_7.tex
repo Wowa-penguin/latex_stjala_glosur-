@@ -1,8 +1,56 @@
 \section{KHR}
+\vspace*{-0.4em}
+\subsection{Inngangur að strjálum líkindum (e. An Introduction to Discrete Probability) }
+\subsubsection{Líkindafræði}
+\vspace*{-0.4em}
+Hvað eru líkurnar á að daga ás?\vspace*{0.5em}\\
+Látum A vera atburðinn að draga ás.\\
+Látum S vera úrtaksrúmið að draga spil.\\
+Það er mikilvægt í svona dæmum að búa til skilgreiningu á atburðum.\vspace*{0.5em}\\
+Það eru 4 leiðir til að draga ás og 52 spil til að draga þanni að.\\
+Þá er |A| = 4 \quad |S| = 52\vspace*{0.5em}
 
-\subsection{Umraðanir og samantektir (e. Permutations and Combinations)}
+\hbox{Þá fæst: $p(A) = \frac{ |A| }{ |S| }$ (stærð á því sem við viljum að gerist deilt í stærð sem getur garst)}\vspace*{0.5em}
+
+$p(A) = \frac{ |A| }{ |S| } = \frac{4}{52} = \frac{1}{13}\approx 7.7\%$
+\vspace*{-0.4em}
+\subsubsection{Líkindafræði, póker}
+\vspace*{-0.4em}
+Hverjar eru líkurnar að póker hönd innihaldi tígultvist, spaðaþrist, hjartasexu, lauftíu og hjartakóng?\vspace*{0.5em}\\
+Látum A vera atburðinn að þessi hönd sé gefin.\\
+Látum S vera úrtaksrúmið.\\
+\hbox{|A| = 1 (Því það er bara einn svona hönd) \quad |S| = C(52, 5) (þar sem við viljum 5 spil)}\vspace*{0.5em}
+
+Við vitum hvernig á að reikna $((52, 5) = \frac{52!}{(52-5)! \cdot 5!} = 2.518.060$
+\begin{equation*}
+    \text{Fáum: } p(A) = \frac{ |A| }{ |S| } = \frac{1}{C(52,5)} = \frac{1}{2.518.060} \approx 0,000038\%
+\end{equation*}\vspace*{1em}\\
+Annað dæmi.\qquad Formúla: $p(A) = 1- p(\overline{A}) $\vspace*{0.3em}\\
+Hverjar eru líkurnar á að fimm spila pókerhendi innihaldi ekki hjartadrottningu?\vspace*{0.3em}\\
+Látum A vera atburðinn að höndinn innihaldi ekki hjartadrottningu.\\
+Látum S vera úrtaksrúmið að vera gefinn 5 spila hönd.\\
+Atugum að |S| = C(52, 5). Við tökum svo hjartadrottningu úr stokknum og sjáum að |A| = C(51, 5).
+\begin{equation*}
+    p(A) = \frac{ |A| }{ |S| } = \frac{C(51,5)}{C(52,5)} = \frac{51!}{46! \cdot 5!} / \frac{52!}{47! \cdot 5!} = \frac{51! \cdot 47! \cdot 5!}{52! \cdot 46! \cdot 5!} = \frac{47}{52} \approx 90.4\%
+\end{equation*}\\
+\newpage
+\hspace*{-1.3em}Annað dæmi.\qquad Formúla: $p(A) = 1- p(\overline{A}) $\vspace*{0.3em}\\
+Hverjar eru líkurnar á því að pókerhönd innihaldi amk einn ás?\vspace*{0.3em}\\
+Algeng vila sem gerist er að tvítelja svona: $\underline{1\heartsuit} \ldots \underline{1\spadesuit } \ldots$\\
+Það sem gerist er að við töldum tvo ása en við vildum bara telja einn.\vspace*{0.5em}\\
+\hbox{Látum A vera atburðinn amk einn ás sé á höndinni. Þá er $\overline{A}$ að einginn ás sé á hönd.}
+Úrtaksrúmið er S sem hefur stærðina |S| = C(52, 5).\vspace*{0.4em}
+
+$|\overline{A}| = C(48,5)$ Þar sem við tökum alla ása úr stokknum.
+\begin{equation*}
+    p(A)= 1- p(\overline{A}) = 1 - \frac{ |A| }{ |S| } = 1 - \frac{C(48,5)}{C(52,5)} \approx 34\%
+\end{equation*}
+Yfirlegt er þetta nógu gott svar nema annað er tekið fram.\\
 
 
+
+ 
+\newpage
 \setcounter{section}{8}
 \setcounter{subsection}{0}
 \subsection{Beiting rakningarformúla  (e. Applications of Recurrence Relations) upp að (e. up to)}
