@@ -54,8 +54,42 @@ $\frac{4591}{50} = 99,02 = \lceil 99,02 \rceil = 100$.\vspace*{0.3em}\\
 Við sjáum að það er nógu stórt þannig það er minsti mögulegi fjöldinn\vspace*{0.3em}\\
 Það þarf því amk 4951 nemanda til að amk 100 komi úr sama fylki.
 \newpage
+
 \subsection{Umraðanir og samantektir (e. Permutations and Combinations)}
-Það er mikið annnað í kafla 6.3 en þetta er það sem ég er búin að sjá á sýni prófum.
+Það er mikið annnað í kafla 6.3 en þetta er það sem ég er búin að sjá á sýni prófum!
+\subsubsection{Umraðanir}
+Hversu margar umraðanir af \{a,b,c,d,e,f,g\} enda á a?\vspace*{0.5em}
+
+Við vitum að röðinn þarf að enda á a þannig við situm þetta svona upp.\vspace*{0.5em}
+
+$\underline{6}\quad\underline{5}\quad\underline{4}\quad\underline{3}\quad\underline{2}\quad\underline{1}\quad\underline{a}$\vspace*{0.5em}
+
+Þar sem lengdinn er 7 og a þarf að vera í endan þá getum við sægt að fyrir \hspace*{1.3em}fyrsta stalið eru 6 mögulegar sem læka svo alveg niður í 1.\\
+\hspace*{1.3em}Þetta er eins og að segja $6! = 6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 720$.
+
+\subsubsection{Talning, umraðanir, samtektir}
+Ef það eri 25 meðlimir í fólagi.\\
+Formúlan til að leisa svona dæmi er: $((k,r) = \frac{k!}{(k-r)! \cdot r!}$\vspace*{0.5em}
+
+a) Hvað er hægt að velja 4 meðlima stjórn á marga vegur?\vspace*{0.3em}
+
+Fáum: $((25,4) = \frac{25!}{(25-4)! \cdot 4!} = \frac{25!}{21! \cdot 4!} = \frac{25 \cdot 24 \cdot 23 \cdot 22}{4 \cdot 3 \cdot 2 \cdot 1} = \frac{303.600}{24} = \underline{12.650}$\vspace*{0.5em}
+
+Það þarf ekki að skrfia þatta alveg svona út en gott að sjá hvernig þetta er skref \hspace*{1.3em}fyrir skref þar sem við erum með 25 og 25 - 4 = 21 þá þurfum við bara að fara \hspace*{1.3em}upp að 22 þegar við erum að markfalda þar sem restinn skerst út.\vspace*{0.5em}
+
+$((25,\underline{4}) = \frac{\overbrace{25 \cdot 24 \cdot 23 \cdot 22}^4}{\underbrace{4 \cdot 3 \cdot 2 \cdot 1}_4}$\vspace*{0.3em} 
+
+Tökum eftir að við erum með fjögur stök bæði fyrir ofan og neðan og r okkar \hspace*{1.3em}er 4 þetta er góð leið til að passa að við erum á réttri leið.\vspace*{1.5em}
+
+b) Á hvað marga vegu má kjósa forseta, varaforseta, ritara og gjaldkera?\vspace*{0.5em}
+
+Fáum: $((25, 4) = \frac{25!}{(25-4)!} = \frac{25!}{21!} = 25 \cdot 24 \cdot 23 \cdot 22 = 303.600$\vspace*{0.2em}
+
+það má því kjósa á 303.600 vegu. (Þarf að fylgja)\vspace*{0.5em}
+
+Svona er dæmið þegar við erum að velja margga hópa í eitthvað eins og stjórn \hspace*{1.3em}þá er formúlan smá breyt. $((k, r) = \frac{k!}{(k-r)!}$
+
+\newpage
 \subsubsection{Talning, bitastrengir}
 Hvessu margir bitastrengir innihalda 8 núll og tíu ása þannig að eftir núll kemur alltaf ás?\vspace*{0.5em}\\
 Hugsum um núllin sem 01 tvenndir til að tryggja að það komi ás á eftir núlli.\\
@@ -64,9 +98,14 @@ Veljum þá átta sæti af 01 fyrir tvenndirnar og setjim ása í afganginn og f
 $((10,8) = \frac{10!}{2!\cdot 8!} = \frac{10 \cdot 9}{2 \cdot 1} = 45$ Það eru því 45 bitastrengir sem uppfylla skilgrening.
 
 \subsubsection{Talning, bílnúmer}
-Eftir að gera
+Hvessu margar númeraplötur með 3 bókstaf og 3 tölustafi innihalda eingan staf tvisvar.\vspace*{0.5em}
 
+Situm þetta svona upp: $\underbrace{\underline{26}\quad \underline{25}\quad \underline{24}}_{\text{bókst.}}\quad \underbrace{\underline{10}\quad \underline{9} \quad \underline{8}}_{\text{tölust.}}$ Þetta er umröðun.\vspace*{0.5em}
 
+Hugsum um bókstaf og tölustafi sem tvær 3 umraðanir. Verljum bókstafi á \hspace*{1.3em}P(26,3) og tölustafi á P(10,3)\\
+\hspace*{1.3em}Við erum með Enska stafrófið því er það 26 stafir.\vspace*{0.5em}
 
+Fáum: $P(26, 3) \cdot P(10,3) = \frac{26!}{23!} \cdot \frac{10!}{7!} = 26 \cdot 25 \cdot 24 \cdot 10 \cdot 9 \cdot 8 = 11.232.000$\vspace*{0.5em}
 
+Það eru því 11.232.000 mögulegar númeraplötur.
 \newpage

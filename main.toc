@@ -49,28 +49,30 @@
 \contentsline {subsubsection}{\numberline {6.2.1}Talningafræði, umraðanir}{33}{subsubsection.6.2.1}%
 \contentsline {subsubsection}{\numberline {6.2.2}Talningafræði, samtektir}{33}{subsubsection.6.2.2}%
 \contentsline {subsection}{\numberline {6.3}Umraðanir og samantektir (e. Permutations and Combinations)}{34}{subsection.6.3}%
-\contentsline {subsubsection}{\numberline {6.3.1}Talning, bitastrengir}{34}{subsubsection.6.3.1}%
-\contentsline {subsubsection}{\numberline {6.3.2}Talning, bílnúmer}{34}{subsubsection.6.3.2}%
-\contentsline {section}{\numberline {7}KHR}{35}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Umraðanir og samantektir (e. Permutations and Combinations)}{35}{subsection.7.1}%
-\contentsline {subsection}{\numberline {8.1}Beiting rakningarformúla (e. Applications of Recurrence Relations) upp að (e. up to)}{35}{subsection.8.1}%
-\contentsline {section}{\numberline {9}KHR}{36}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Vensl og eiginleikar þeirra (e. Relations and Their Properties)}{36}{subsection.9.1}%
-\contentsline {subsubsection}{\numberline {9.1.1}Annað dæmi}{36}{subsubsection.9.1.1}%
-\contentsline {subsubsection}{\numberline {9.1.2}Annað dæmi vensla}{37}{subsubsection.9.1.2}%
-\contentsline {subsubsection}{\numberline {9.1.3}Annað dæmi vensla}{37}{subsubsection.9.1.3}%
-\contentsline {subsection}{\numberline {9.3}Framsetning vensla (e. Representing Relations)}{38}{subsection.9.3}%
-\contentsline {subsubsection}{\numberline {9.3.1}Vensl framsetning með filki}{38}{subsubsection.9.3.1}%
-\contentsline {subsubsection}{\numberline {9.3.2}Vensl taling staka í filki}{38}{subsubsection.9.3.2}%
-\contentsline {subsubsection}{\numberline {9.3.3}Vensl filki samsett vensk veldi}{38}{subsubsection.9.3.3}%
-\contentsline {subsubsection}{\numberline {9.3.4}Vensl framsetning með neti }{39}{subsubsection.9.3.4}%
-\contentsline {subsection}{\numberline {9.5}Jafngildisvensl (e. Equivalence Relations)}{39}{subsection.9.5}%
-\contentsline {subsubsection}{\numberline {9.5.1}Jafngildisvensl}{39}{subsubsection.9.5.1}%
-\contentsline {section}{\numberline {10}KHR}{40}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Net og netlíkön(e. Graphs and Graph Models)}{40}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Neta hugtök og sérstakar tegundir neta (e. Graph Terminology and Special Types of Graphs)}{40}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Framsetning og einsmótun neta (e. Representing Graphs and Graph Isomorphism)}{40}{subsection.10.3}%
-\contentsline {subsection}{\numberline {10.4}Tengsl neta(e. Connectivity)}{40}{subsection.10.4}%
-\contentsline {subsection}{\numberline {10.5}Euler og Hamilton leiðir (e. Euler and Hamilton Paths)}{40}{subsection.10.5}%
-\contentsline {subsection}{\numberline {10.6}Styrsta leið (e. Shortest-Path Problems)}{40}{subsection.10.6}%
-\contentsline {subsection}{\numberline {10.8}Litun neta (e. Graph Coloring)}{40}{subsection.10.8}%
+\contentsline {subsubsection}{\numberline {6.3.1}Umraðanir}{34}{subsubsection.6.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.2}Talning, umraðanir, samtektir}{34}{subsubsection.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.3}Talning, bitastrengir}{35}{subsubsection.6.3.3}%
+\contentsline {subsubsection}{\numberline {6.3.4}Talning, bílnúmer}{35}{subsubsection.6.3.4}%
+\contentsline {section}{\numberline {7}KHR}{36}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Umraðanir og samantektir (e. Permutations and Combinations)}{36}{subsection.7.1}%
+\contentsline {subsection}{\numberline {8.1}Beiting rakningarformúla (e. Applications of Recurrence Relations) upp að (e. up to)}{36}{subsection.8.1}%
+\contentsline {section}{\numberline {9}KHR}{37}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Vensl og eiginleikar þeirra (e. Relations and Their Properties)}{37}{subsection.9.1}%
+\contentsline {subsubsection}{\numberline {9.1.1}Annað dæmi}{37}{subsubsection.9.1.1}%
+\contentsline {subsubsection}{\numberline {9.1.2}Annað dæmi vensla}{38}{subsubsection.9.1.2}%
+\contentsline {subsubsection}{\numberline {9.1.3}Annað dæmi vensla}{38}{subsubsection.9.1.3}%
+\contentsline {subsection}{\numberline {9.3}Framsetning vensla (e. Representing Relations)}{39}{subsection.9.3}%
+\contentsline {subsubsection}{\numberline {9.3.1}Vensl framsetning með filki}{39}{subsubsection.9.3.1}%
+\contentsline {subsubsection}{\numberline {9.3.2}Vensl taling staka í filki}{39}{subsubsection.9.3.2}%
+\contentsline {subsubsection}{\numberline {9.3.3}Vensl filki samsett vensk veldi}{39}{subsubsection.9.3.3}%
+\contentsline {subsubsection}{\numberline {9.3.4}Vensl framsetning með neti }{40}{subsubsection.9.3.4}%
+\contentsline {subsection}{\numberline {9.5}Jafngildisvensl (e. Equivalence Relations)}{40}{subsection.9.5}%
+\contentsline {subsubsection}{\numberline {9.5.1}Jafngildisvensl}{40}{subsubsection.9.5.1}%
+\contentsline {section}{\numberline {10}KHR}{41}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Net og netlíkön(e. Graphs and Graph Models)}{41}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Neta hugtök og sérstakar tegundir neta (e. Graph Terminology and Special Types of Graphs)}{41}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Framsetning og einsmótun neta (e. Representing Graphs and Graph Isomorphism)}{41}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Tengsl neta(e. Connectivity)}{41}{subsection.10.4}%
+\contentsline {subsection}{\numberline {10.5}Euler og Hamilton leiðir (e. Euler and Hamilton Paths)}{41}{subsection.10.5}%
+\contentsline {subsection}{\numberline {10.6}Styrsta leið (e. Shortest-Path Problems)}{41}{subsection.10.6}%
+\contentsline {subsection}{\numberline {10.8}Litun neta (e. Graph Coloring)}{41}{subsection.10.8}%
