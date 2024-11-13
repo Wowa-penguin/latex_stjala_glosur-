@@ -49,10 +49,112 @@ Yfirlegt er þetta nógu gott svar nema annað er tekið fram.\\
 
 
 
- 
 \newpage
 \setcounter{section}{8}
 \setcounter{subsection}{0}
 \subsection{Beiting rakningarformúla  (e. Applications of Recurrence Relations) upp að (e. up to)}
+Skilaboð eru send sem röð merkja sem eri annað hvort $1_{ms}$ eða $2_{ms}$ af lengd.\vspace*{0.5em}\\
+Finnum fjölda Skilaboð sem eru $n_{ms}$.\\
+Látum $a_n$ tákna fjölda mögulega Skilaboða sem eru $n_{ms}$ af lengd.\vspace*{0.5em}
 
+a) Finnum rakningarformúlu:
+\hspace*{-1.3em}Skoðum skilaboð af lengf n.\\
+\begin{multicols}{2}
+    \hspace*{-1.3em}Ef Skilaboð byrja á merki af lengd 1 þá eru $n - 1 ms$ eftir.\\
+    Þær má filla á $a_{n-1}$ vegu.\\
+    Sama fæst að ef skilaboð byrja á merki af lengd 2 má klára á $a_{n-2}$ vegu.\\
+    Þá fæst í heildina eru $a_n = a_{n-2}+ a_{n-1}$ möguleg skilaboð af lengd n þar sem $n \geq 2$
+    \columnbreak
+
+    \hspace*{3em}\begin{tabular}{ |c|c| }
+        \hline
+        1 & \qquad n-1 \hspace*{3em}
+        \\\hline
+    \end{tabular}\vspace*{1em}\\ 
+    \hspace*{4.3em}\begin{tabular}{ |c|c| }
+        \hline
+        \quad2  \quad & \qquad n-2 \hspace*{3em}
+        \\\hline
+    \end{tabular}
+    \begin{align*}
+        &a_n = a_{n-2}+ a_{n-1}\\
+        &a_0=1 \quad a_1=1\\
+        &n \geq 2
+    \end{align*}
+\end{multicols}
+b) Finnum upphafsgildi, atugum að það eru aðeins ein tóm skilaboð tómu \hspace*{2.7em}skilaboðin svo $a_0=1$.
+
+Það eru einnig þarf ein skilaboð af lengd 1 skilaboðin 1 svo $a_1 = 1$\\
+\hspace*{1.3em}Upphafsskilirðin eru $a_0=1$ og $a_1=1$\vspace*{0.5em}
+
+c) Finnum fjölda skilaboða af lengd $10_{ms}(a_{10})$
+\begin{align*}
+    &a_0 = 1\\
+    &a_1 = 1\\
+    &a_2 = a_{2-2}+ a_{2-1} = a_0 + a_1 = 1 + 1 = 2\\
+    &a_3 = a_{3-2}+ a_{3-1} = a_0 + a_1 = 1 + 2 = 3 \\
+    &a_4 = 2 + 3 = 5\\
+    &a_5 = 3 + 5 = 8\\
+    &a_6 = 5 + 8 = 13\\
+    &\vdots\\
+    &a_{10} = 34 + 55 = 89
+\end{align*}
+Það eru því 89 möguleg skilaboð af lengd $10_{ms}$
+
+\newpage
+\subsubsection{Annað dæmi um rakningarformúlur}
+Hversu margar mögulegar hellur má leggja með rauðum, bláum og grænum hellum ef hellurnar eru lagðar í einna röð og það mega ekki vera tvær rauðar hlið við hlið.\vspace*{1em}
+
+a) Finnum rakningarformúlu: Látum $a_n$ tákna fjölda löglegra lagna af lengd n.
+\begin{multicols}{2}
+    \hspace*{-1.3em}Skoðum hellulögn af lengd n.\\
+    Ef fyrsta hellan er annahvort græn eða blá má setja hvaða löglegu lögn sem er af lengd n-1 a fyrir aftan, það er $a_{n-1}$ mögulegar fyrir hvorn lit.\\
+    Ef lögnin byrjar á rauðri hellu verður næsta hella að vera græn eða blá. Síðan má klára með löglegri lögn að lengd n-2, þar er $a_{n-2}$ fyrir hvorn lit á eftir rauðari hellu.\\
+    Í heldina eru þá $a_n = 2(a_{n-2}+ a_{n-1})$ margar löglegra lagnir á lengd n.
+
+    \columnbreak
+
+    \begin{center}
+        n hellur
+    \end{center}
+    \hspace*{4.3em}\begin{tabular}{ c|c|c|c| }
+        & & 2x
+        \\\hline
+        $2a_{n-2}$ & R & G/B & \hspace*{1em}$a_{n-2}$ \hspace*{1em}
+        \\\hline
+    \end{tabular}\vspace*{1em}\\ 
+    \hspace*{4.3em}\begin{tabular}{ c|c|c| }
+        \hline
+        $2a_{n-1}$ & G & \hspace*{1em}$a_{n-1}$ \hspace*{1em}
+        \\\hline
+    \end{tabular}\vspace*{1em}\\ 
+    \hspace*{4.3em}\begin{tabular}{ c|c|c| }
+        \hline
+        $2a_{n-1}$ & B & \hspace*{1em}$a_{n-1}$ \hspace*{1em}
+        \\\hline
+    \end{tabular}
+\end{multicols}
+
+b) Finnum upphafsskilirðin: 
+
+Atugum að tóma hellulögnin er lögleg svo $a_0 = 1$
+
+Atugum líka að allar legnir með einni hellu eru líka löglegar svo $a_1 =3$\vspace*{0.5em}
+
+
+c) Hvað eru margar löglegar lagnir af lengd 7? 
+
+Formúlan er þá: $n \geq 2$
+\begin{align*}
+    a_n &= 2(a_{n-2}+ a_{n-1})\\
+    a_0 &= 1 \\ 
+    a_1 &= 3 \\ 
+    a_2 &= 2(a_{n-2}+ a_{n-1}) = 2(1+3) = 8\\
+    a_3 &= 2(2+8) = 22\\
+    a_4 &= 2(8+22) = 60\\
+    a_5 &= 2(22+60) = 164\\
+    a_6 &= 2(60+164) = 448\\
+    a_7 &= 2(164+448) = 1224
+\end{align*}
+Þannig það eru 1224 löglegra hellulagnir af lengd 7.
 \newpage
